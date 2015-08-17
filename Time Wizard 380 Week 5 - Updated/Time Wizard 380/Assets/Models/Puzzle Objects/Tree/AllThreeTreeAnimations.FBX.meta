@@ -1,0 +1,995 @@
+fileFormatVersion: 2
+guid: 7549a28e794ebd44aac68bf3403f21e9
+timeCreated: 1439266571
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder005
+    100004: Cylinder006
+    100006: Cylinder007
+    100008: Cylinder026
+    100010: Cylinder027
+    100012: Cylinder028
+    100014: Cylinder029
+    100016: Cylinder030
+    100018: Cylinder031
+    100020: Cylinder032
+    100022: Cylinder033
+    100024: Cylinder034
+    100026: Cylinder035
+    100028: Cylinder036
+    100030: Cylinder037
+    100032: Cylinder038
+    100034: Cylinder039
+    100036: Cylinder040
+    100038: Cylinder041
+    100040: Cylinder042
+    100042: Cylinder043
+    100044: Cylinder044
+    100046: Line001
+    100048: Line002
+    100050: Line003
+    100052: Sapling
+    100054: Sphere001
+    100056: Sphere002
+    100058: Sphere003
+    100060: Sphere004
+    100062: Sphere013
+    100064: Sphere014
+    100066: Sphere015
+    100068: Sphere016
+    100070: Sphere017
+    100072: Sphere018
+    400000: //RootNode
+    400002: Cylinder005
+    400004: Cylinder006
+    400006: Cylinder007
+    400008: Cylinder026
+    400010: Cylinder027
+    400012: Cylinder028
+    400014: Cylinder029
+    400016: Cylinder030
+    400018: Cylinder031
+    400020: Cylinder032
+    400022: Cylinder033
+    400024: Cylinder034
+    400026: Cylinder035
+    400028: Cylinder036
+    400030: Cylinder037
+    400032: Cylinder038
+    400034: Cylinder039
+    400036: Cylinder040
+    400038: Cylinder041
+    400040: Cylinder042
+    400042: Cylinder043
+    400044: Cylinder044
+    400046: Line001
+    400048: Line002
+    400050: Line003
+    400052: Sapling
+    400054: Sphere001
+    400056: Sphere002
+    400058: Sphere003
+    400060: Sphere004
+    400062: Sphere013
+    400064: Sphere014
+    400066: Sphere015
+    400068: Sphere016
+    400070: Sphere017
+    400072: Sphere018
+    2300000: Cylinder005
+    2300002: Cylinder006
+    2300004: Cylinder007
+    2300006: Cylinder026
+    2300008: Cylinder027
+    2300010: Cylinder028
+    2300012: Cylinder029
+    2300014: Cylinder030
+    2300016: Cylinder031
+    2300018: Cylinder032
+    2300020: Cylinder033
+    2300022: Cylinder034
+    2300024: Cylinder035
+    2300026: Cylinder036
+    2300028: Cylinder037
+    2300030: Cylinder038
+    2300032: Cylinder039
+    2300034: Cylinder040
+    2300036: Cylinder041
+    2300038: Cylinder042
+    2300040: Cylinder043
+    2300042: Cylinder044
+    2300044: Line001
+    2300046: Line002
+    2300048: Line003
+    2300050: Sapling
+    2300052: Sphere001
+    2300054: Sphere002
+    2300056: Sphere003
+    2300058: Sphere004
+    2300060: Sphere013
+    2300062: Sphere014
+    2300064: Sphere015
+    2300066: Sphere016
+    2300068: Sphere017
+    2300070: Sphere018
+    3300000: Cylinder005
+    3300002: Cylinder006
+    3300004: Cylinder007
+    3300006: Cylinder026
+    3300008: Cylinder027
+    3300010: Cylinder028
+    3300012: Cylinder029
+    3300014: Cylinder030
+    3300016: Cylinder031
+    3300018: Cylinder032
+    3300020: Cylinder033
+    3300022: Cylinder034
+    3300024: Cylinder035
+    3300026: Cylinder036
+    3300028: Cylinder037
+    3300030: Cylinder038
+    3300032: Cylinder039
+    3300034: Cylinder040
+    3300036: Cylinder041
+    3300038: Cylinder042
+    3300040: Cylinder043
+    3300042: Cylinder044
+    3300044: Line001
+    3300046: Line002
+    3300048: Line003
+    3300050: Sapling
+    3300052: Sphere001
+    3300054: Sphere002
+    3300056: Sphere003
+    3300058: Sphere004
+    3300060: Sphere013
+    3300062: Sphere014
+    3300064: Sphere015
+    3300066: Sphere016
+    3300068: Sphere017
+    3300070: Sphere018
+    4300000: Sapling
+    4300002: Line001
+    4300004: Line002
+    4300006: Line003
+    4300008: Cylinder005
+    4300010: Cylinder006
+    4300012: Cylinder007
+    4300014: Sphere001
+    4300016: Sphere002
+    4300018: Sphere003
+    4300020: Sphere004
+    4300022: Cylinder026
+    4300024: Cylinder027
+    4300026: Cylinder028
+    4300028: Cylinder029
+    4300030: Cylinder030
+    4300032: Cylinder031
+    4300034: Cylinder032
+    4300036: Cylinder033
+    4300038: Cylinder034
+    4300040: Cylinder035
+    4300042: Cylinder036
+    4300044: Cylinder037
+    4300046: Cylinder038
+    4300048: Cylinder039
+    4300050: Cylinder040
+    4300052: Sphere013
+    4300054: Sphere014
+    4300056: Cylinder041
+    4300058: Cylinder042
+    4300060: Sphere015
+    4300062: Sphere016
+    4300064: Cylinder043
+    4300066: Sphere017
+    4300068: Sphere018
+    4300070: Cylinder044
+    6400000: Cylinder005
+    6400002: Cylinder006
+    6400004: Cylinder007
+    6400006: Cylinder026
+    6400008: Cylinder027
+    6400010: Cylinder028
+    6400012: Cylinder029
+    6400014: Cylinder030
+    6400016: Cylinder031
+    6400018: Cylinder032
+    6400020: Cylinder033
+    6400022: Cylinder034
+    6400024: Cylinder035
+    6400026: Cylinder036
+    6400028: Cylinder037
+    6400030: Cylinder038
+    6400032: Cylinder039
+    6400034: Cylinder040
+    6400036: Cylinder041
+    6400038: Cylinder042
+    6400040: Cylinder043
+    6400042: Cylinder044
+    6400044: Line001
+    6400046: Line002
+    6400048: Line003
+    6400050: Sapling
+    6400052: Sphere001
+    6400054: Sphere002
+    6400056: Sphere003
+    6400058: Sphere004
+    6400060: Sphere013
+    6400062: Sphere014
+    6400064: Sphere015
+    6400066: Sphere016
+    6400068: Sphere017
+    6400070: Sphere018
+    7400000: treeToSappling
+    7400002: sapplingToTree
+    7400004: treeToBigTree
+    7400006: bigTreeToTree
+    7400008: sapping
+    7400010: tree
+    7400012: bigTree
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sapplingToTree
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: treeToSappling
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: treeToBigTree
+      takeName: Take 001
+      firstFrame: 206
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bigTreeToTree
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: sapping
+      takeName: Take 001
+      firstFrame: 199
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tree
+      takeName: Take 001
+      firstFrame: 99
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bigTree
+      takeName: Take 001
+      firstFrame: 399
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder026
+        weight: 1
+      - path: Cylinder027
+        weight: 1
+      - path: Cylinder028
+        weight: 1
+      - path: Cylinder029
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Cylinder032
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Cylinder034
+        weight: 1
+      - path: Cylinder035
+        weight: 1
+      - path: Cylinder036
+        weight: 1
+      - path: Cylinder037
+        weight: 1
+      - path: Cylinder038
+        weight: 1
+      - path: Cylinder039
+        weight: 1
+      - path: Cylinder040
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Sapling
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere013
+        weight: 1
+      - path: Sphere014
+        weight: 1
+      - path: Sphere015
+        weight: 1
+      - path: Sphere016
+        weight: 1
+      - path: Sphere017
+        weight: 1
+      - path: Sphere018
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
