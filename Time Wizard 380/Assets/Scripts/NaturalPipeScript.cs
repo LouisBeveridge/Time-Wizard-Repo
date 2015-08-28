@@ -75,7 +75,7 @@ public class NaturalPipeScript : MonoBehaviour {
 	void OnTriggerEnter (Collider col){
 
 		//forwards time warp
-		if (col.gameObject.tag == "F_Warp" && natural == true) { 
+		if (col.gameObject.tag == "F_Warp" && natural == true && gameObject.tag!="Old") { 
 		
 			natural = false;
 			waterLevelTrans.position = PostLevel.transform.position;
@@ -84,7 +84,7 @@ public class NaturalPipeScript : MonoBehaviour {
 				}
 
 		//backwards time warp
-		if (col.gameObject.tag == "B_Warp" && natural == true) { 
+		if (col.gameObject.tag == "B_Warp" && natural == true && gameObject.tag!="New") { 
 			
 			natural = false;
 			waterLevelTrans.position = PreLevel.transform.position;

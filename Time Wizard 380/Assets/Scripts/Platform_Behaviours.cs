@@ -4,7 +4,7 @@ using System.Collections;
 public class Platform_Behaviours : MonoBehaviour {
 	
 	public GameObject Splash;
-	public GameObject Time_Wizard;
+	private GameObject TimeWizard;
 	Transform myTransform;
 
 
@@ -13,6 +13,8 @@ public class Platform_Behaviours : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		myTransform = this.transform;
+			
+		TimeWizard = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
 	// Update is called once per frame
@@ -23,12 +25,12 @@ public class Platform_Behaviours : MonoBehaviour {
 	void OnTriggerEnter(Collider col) {
 		if (col.gameObject.tag == "Water") {
 
-			Splashclone = (GameObject)Instantiate (Splash, transform.position, transform.rotation);
+			//Splashclone = (GameObject)Instantiate (Splash, transform.position, transform.rotation);
 				}//end if
 
-		if (col.gameObject.tag == "Player") {
+		if (col.gameObject.tag == "PlayerRigid") {
 
-			col.transform.parent = myTransform;
+			TimeWizard.transform.parent = myTransform;
 				}
 		}
 
@@ -36,10 +38,10 @@ public class Platform_Behaviours : MonoBehaviour {
 	
 	
 	void OnTriggerExit (Collider col) {
-		if(col.gameObject.tag == "Player") {
+		if(col.gameObject.tag == "PlayerRigid") {
 			print("OFF");
-			Destroy (Splashclone,2);
-			col.transform.parent= null;
+		//	Destroy (Splashclone,2);
+			TimeWizard.transform.parent= null;
 
 	}
 }

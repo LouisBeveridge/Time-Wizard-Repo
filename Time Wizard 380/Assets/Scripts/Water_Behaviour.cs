@@ -22,7 +22,7 @@ public class Water_Behaviour : MonoBehaviour {
 	void OnTriggerEnter(Collider col) {
 
 		if (col.gameObject.tag == "Player") {
-			Application.LoadLevel(0);
+			//Application.LoadLevel(0);
 			print("Dickbutt");
 						//Destroy (this.gameObject);
 

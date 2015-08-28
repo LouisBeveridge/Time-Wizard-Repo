@@ -28,16 +28,6 @@ function Start () {
 
 function LateUpdate () {
 
-/* // Dead zone bs
-var deadzone = 0.25f;
-    Vector2 stickInput = new Vector2(Input.GetAxis(â€œHorizontalâ€), Input.GetAxis(â€œVerticalâ€));
-    if(stickInput.magnitude < deadzone)
-        stickInput = Vector2.zero;
-    else
-        stickInput = stickInput.normalized * ((stickInput.magnitude - deadzone) / (1 - deadzone));
-//dead zone bs */
-
-
     if (target) {
         x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
         y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;

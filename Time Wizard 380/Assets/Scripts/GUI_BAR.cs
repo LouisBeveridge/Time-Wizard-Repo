@@ -10,10 +10,11 @@ public class GUI_BAR : MonoBehaviour {
 	//public ani
 	private int timeWarpsLeft = 5;
 	private int instaCranksLeft = 0;
+	public int healthLeft = 5;
 	private string numInput = "0"; //just for testing
 	//Vector3 up = new Vector3 (0,1,0);
 	//Vector3 down = new Vector3 (0,0,0);
-	public Sprite zeroLife,oneLife,twoLife,threeLife,fourLife,fiveLife,zeroCharge,oneCharge,twoCharge,threeCharge,fourCharge,fiveCharge;
+	public Sprite zeroLife,oneLife,twoLife,threeLife,fourLife,fiveLife,  zeroCharge,oneCharge,twoCharge,threeCharge,fourCharge,fiveCharge;
 
 	private bool canFire = true, crankable = true;
 	Animator anim;
@@ -35,6 +36,7 @@ public class GUI_BAR : MonoBehaviour {
 		//ReadMessage();
 		SetTimeWarpsLeft();
 		UpdateBar ();
+
 
 		if (Input.GetKey ("p")) {
 			//animation.Play ("FadeIn");
@@ -66,7 +68,7 @@ public class GUI_BAR : MonoBehaviour {
 			Charges.sprite = threeCharge;
 			break;
 		case 4:
-			transform.position= new Vector3(0,4,0);//transform the time warp bar to look like it has nothing left in it
+			//transform.position= new Vector3(0,4,0);//transform the time warp bar to look like it has nothing left in it
 			Charges.sprite = fourCharge;
 			break;
 		case 5:
@@ -78,7 +80,39 @@ public class GUI_BAR : MonoBehaviour {
 		}//end of switch statement
 		
 		//	HealthBar = //input from another script (set to a key binding for now)
-		
+		switch(healthLeft) {
+			
+		case 0://empty
+			//transform.position = new Vector3(0,0,0);//transform the time warp bar to look like it has nothing left in it
+			//In each case just destroy the old sprite and instantiate the new sprite with relevant information (timeWarpsleft integer)
+			Lives.sprite = zeroLife;
+			break;
+		case 1:
+			//transform.position = new Vector3(0,1,0);//transform the time warp bar to look like it has nothing left in it
+			Lives.sprite = oneLife;
+			
+			break;
+		case 2:
+			//transform.position = new Vector3(0,2,0);//transform the time warp bar to look like it has nothing left in it
+			Lives.sprite = twoLife;
+			break;
+		case 3:
+			//transform.position= new Vector3(0,3,0);//transform the time warp bar to look like it has nothing left in it
+			Lives.sprite = threeLife;
+			break;
+		case 4:
+			//transform.position= new Vector3(0,4,0);//transform the time warp bar to look like it has nothing left in it
+			Lives.sprite = fourLife;
+			break;
+		case 5:
+			//transform.position= new Vector3(0,5,0);//transform the time warp bar to look like it has nothing left in it
+			Lives.sprite = fiveLife;
+			break;
+			
+			
+		}
+
+
 	}
 
 	//________Enumerators_____________________
@@ -104,6 +138,7 @@ public class GUI_BAR : MonoBehaviour {
 		if ((Input.GetKey ("q") || Input.GetAxis("Triggers") == 1) && timeWarpsLeft > 0 && canFire) {
 			canFire = false;
 			timeWarpsLeft = timeWarpsLeft-1;
+			healthLeft = healthLeft-1;
 			StartCoroutine("holdFire");
 				}
 		if ((Input.GetKey ("e") || Input.GetAxis("Triggers") == -1) && timeWarpsLeft > 0 && canFire) {

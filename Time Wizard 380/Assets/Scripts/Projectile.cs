@@ -11,8 +11,11 @@ public class Projectile : MonoBehaviour {
 	public GameObject Right_Bell;
 	public GameObject Body;
 	public GameObject MainCamera;
+
 	public GameObject BackwardsWarp;
 	public GameObject ForwardsWarp;
+	public GameObject AttackWarp;
+
 	public GameObject LeftReticle;
 	public GameObject RightReticle;
 	public GameObject TimeWarpSound;
@@ -63,6 +66,15 @@ public class Projectile : MonoBehaviour {
 			shot.transform.forward = RightReticle.transform.forward;
 			StartCoroutine("wait");
 		}//end if
+
+
+		if ((Input.GetKey ("r") && canFire == true)) {
+			canFire= false;
+			GetHitTrans();
+			GameObject shot = (GameObject)Instantiate(AttackWarp,Right_Bell.transform.position,Quaternion.Euler(RightReticle.transform.forward));
+			shot.transform.forward = RightReticle.transform.forward;
+			StartCoroutine("wait");
+		}//end if 
 	}
 
 
